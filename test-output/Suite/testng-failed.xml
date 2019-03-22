@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="CLOUD Automation Tests-Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cloud.util.DynamicTestNGSuite">
+        <methods>
+          <include name="setTestNGXml"/>
+        </methods>
+      </class> <!-- com.cloud.util.DynamicTestNGSuite -->
+    </classes>
+  </test> <!-- CLOUD Automation Tests-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

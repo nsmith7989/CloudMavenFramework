@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TempSuitetag]">
+  <test name="HCMModuleTests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.cloud.test.HCM.TC_MSS_Manage_Direct_Reports">
+        <methods>
+          <include name="MSS_Manage_Direct_Reports" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cloud.test.HCM.TC_MSS_Manage_Direct_Reports -->
+    </classes>
+  </test> <!-- HCMModuleTests(failed) -->
+</suite> <!-- Failed suite [TempSuitetag] -->
