@@ -24,8 +24,8 @@ public class TestCaseUtils {
 	public final static void SendEmail(String mailenabled) {
 
 		if(mailenabled.equals("1")){
-		 final String username = "hiltonuatautomationreport@gmail.com";
-		 final String password = "Hilton@1234";
+		 final String username = "";
+		 final String password = "";
 		 Properties props = new Properties();
 		 props.put("mail.smtp.auth", true);
 		 props.put("mail.smtp.starttls.enable", true);
@@ -47,10 +47,7 @@ public class TestCaseUtils {
 		 // message.setRecipients(Message.RecipientType.TO,
 		 // InternetAddress.parse(
 		 //
-		 //"Ratnesh.Kumar.contractor@hilton.com,Ratna.Adusumilli@hilton.com,Ramana.Kunapuli.contractor@hilton.com,Neelima.Chalamalasetty.contractor@hilton.com,Sridevi.Aiely.contractor@hilton.com,Preeti.Joshi.contractor@hilton.com,Chetan.Babu.contractor@hilton.com,Dan.Willis.contractor@hilton.com,Adeep.Kota.contractor@hilton.com,Jimmee.Fullerton@hilton.com,Charles.Humphrey@hilton.com,Rachana.Dixit@hilton.com,"));
 		 message.setRecipients(Message.RecipientType.TO,
-		 InternetAddress.parse("Ratnesh.Kumar.contractor@hilton.com"));
-		 //,Ratna.Adusumilli@hilton.com,Ramana.Kunapuli.contractor@hilton.com,Neelima.Chalamalasetty.contractor@hilton.com,Sridevi.Aiely.contractor@hilton.com,Preeti.Joshi.contractor@hilton.com,Chetan.Babu.contractor@hilton.com,Dan.Willis.contractor@hilton.com,Adeep.Kota.contractor@hilton.com,Jimmee.Fullerton@hilton.com,Charles.Humphrey@hilton.com,Sangeetha.Ravindran@hilton.com,Rachana.Dixit@hilton.com,"));
 		
 		 Date date = new Date();
 		 String DATE_FORMAT = "MM/dd/yyyy";
